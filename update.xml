@@ -1,1 +1,14 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<update xmlns="http://update.libreoffice.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://update.libreoffice.org https://update.libreoffice.org/update3.xsd">
+    <application appid="mops.libreoffice.extensions.menu_features" name="MOPS Features for LibreOffice" version="1.0.0" platform="win mac linux">
+        <release-info version="2.2.2" platform="win mac linux">
+            <download url="https://example.com/extension/your_extension_v2.0.oxt"/>
+            <description lang="en">Update to version 2.2.2 of MOPS Features for LibreOffice.</description>
+        </release-info>
+        <release-info version="2.2.3" platform="win mac linux">
+            <download url="https://example.com/extension/your_extension_v3.0.oxt"/>
+            <description lang="en">Update to version 2.2.3 of MOPS Features for LibreOffice.</description>
+        </release-info>
+        <!-- Add more release-info elements for each new version of your extension -->
+    </application>
+</update>

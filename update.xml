@@ -11,4 +11,7 @@
   <publisher>
     <name xlink:href="https://github.com/lou-robinson/mops_features/" lang="en">Lou Robinson</name>
   </publisher>
+  <desc lang="en-US">Improve UDF processing and PDF exporting.</desc>
+  <desc lang="ru-RU">Улучшена обработка UDF и экспорт в PDF.</desc>
+
 </description>

@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<update xmlns="http://update.libreoffice.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://update.libreoffice.org https://update.libreoffice.org/update3.xsd">
-    <application appid="mops.libreoffice.extensions.menu_features" name="MOPS Features for LibreOffice" version="1.0.0" platform="win mac linux">
-        <release-info version="2.2.1" platform="win mac linux">
-            <download url="https://github.com/lou-robinson/mops_features_updates/releases/download/2.2.1/MOPS_Features_2.2.1.oxt"/>
-            <description lang="en">Update to version 2.2.2 of MOPS Features for LibreOffice.</description>
-        </release-info>
-        <release-info version="2.2.2" platform="win mac linux">
-            <download url="https://github.com/lou-robinson/mops_features_updates/releases/download/2.2.2/MOPS_Features_2.2.2.oxt"/>
-            <description lang="en">Update to version 2.2.2 of MOPS Features for LibreOffice.</description>
-        </release-info>
-        <release-info version="2.2.3" platform="win mac linux">
-            <download url="https://github.com/lou-robinson/mops_features_updates/releases/download/2.2.3/MOPS_Features_2.2.3.oxt"/>
-            <description lang="en">Update to version 2.2.3 of MOPS Features for LibreOffice.</description>
-        </release-info>
-        <!-- Add more release-info elements for each new version of your extension -->
-    </application>
-</update>
+<?xml version='1.0' encoding='UTF-8'?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:dep="http://openoffice.org/extensions/description/2006" xmlns:l="http://libreoffice.org/extensions/description/2011" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identifier value="mops.libreoffice.extensions.menu_features"/>
+  <version value="2.2.3"/>
+  <dependencies>
+    <l:LibreOffice-minimal-version value="7.0"/>
+  </dependencies>
+  <update-download>
+    <src xlink:href="https://github.com/lou-robinson/mops_features_updates/releases/download/2.2.3/MOPS_Features_2.2.3.oxt"/>
+  </update-download>
+</description>
